@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1697449016806' stop='1697449033516'>
+    <name>Register and login to My Store</name>
+    <title>Register and login to My Store</title>
+    <test-cases>
+        <test-case start='1697449016851' status='passed' stop='1697449033515'>
+            <name>As a user, I can register myself into Test Store web site</name>
+            <title>As a user, I can register myself into Test Store web site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Register and login to My Store'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-115.0.5790.99'/>
+            </parameters>
+            <steps>
+                <step start='1697449016855' status='passed' stop='1697449020381'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449020382' status='passed' stop='1697449023519'>
+                    <name>When I click on Login or Register link</name>
+                    <title>When I click on Login or Register link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449023519' status='passed' stop='1697449024604'>
+                    <name>And I click on Continue button</name>
+                    <title>And I click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449024605' status='passed' stop='1697449027485'>
+                    <name>When I enter "WDIO", "Test" and "WDIOTypeScript05@mystore.com" details</name>
+                    <title>When I enter "WDIO", "Test" and "WDIOTypeScript05@mystore.com" details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449027485' status='passed' stop='1697449031525'>
+                    <name>And I enter "XYZ", "12 james lane", "Delhi", "Delhi", "110002", "India"</name>
+                    <title>And I enter "XYZ", "12 james lane", "Delhi", "Delhi", "110002", "India"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449031525' status='passed' stop='1697449032035'>
+                    <name>And I enter "wdiotest05" and "Pass123"</name>
+                    <title>And I enter "wdiotest05" and "Pass123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449032035' status='passed' stop='1697449032151'>
+                    <name>And I select privacy policy checkbox</name>
+                    <title>And I select privacy policy checkbox</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449032151' status='passed' stop='1697449033464'>
+                    <name>And I click on Continue button</name>
+                    <title>And I click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1697449033464' status='passed' stop='1697449033513'>
+                    <name>Then I should see account successfully created message</name>
+                    <title>Then I should see account successfully created message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
