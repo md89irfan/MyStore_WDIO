@@ -3,7 +3,9 @@ import { ChainablePromiseElement } from 'webdriverio';
 import Page from './page';
 
 /**
- * sub page containing specific selectors and methods for a specific page
+ * @dateCreated: 16th Oct, 2023
+ * @createdBy: Mohammad Irfan
+ * @description: This file contains page elements and methods for login to test store application
  */
 class LoginPage extends Page {
     /**

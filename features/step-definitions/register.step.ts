@@ -1,6 +1,11 @@
 import { Given, When, Then, DataTable } from '@wdio/cucumber-framework';
 import RegisterPage from '../pageobjects/register.page';
 
+/**
+ * @dateCreated: 16th Oct, 2023
+ * @createdBy: Mohammad Irfan
+ * @description: This file contains step definitions for registering a new user to test store application
+ */
 const pages = {
     register: RegisterPage
 }

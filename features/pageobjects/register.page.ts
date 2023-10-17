@@ -5,6 +5,12 @@ import Page from "./page";
 let firstName: string = "";
 let lastName: string = "";
 
+/**
+ * @dateCreated: 16th Oct, 2023
+ * @createdBy: Mohammad Irfan
+ * @description: This file contains page objects and methods for registering a new user to test store application
+ */
+
 class RegisterPage extends Page {
     /**
      * define selectors using getter methods
@@ -34,7 +40,7 @@ class RegisterPage extends Page {
     public get accountCreatedText() { return $('.maintext'); }
 
 
-    /** Register page methods start */
+    /** Register page methods go here */
     public async clickLoginOrRegister(){
         await (await this.linkLoginOrRegister).click();
     }

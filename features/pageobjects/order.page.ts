@@ -3,7 +3,9 @@ import { ChainablePromiseElement } from 'webdriverio';
 import Page from './page';
 
 /**
- * sub page containing specific selectors and methods for a specific page
+ * @dateCreated: 16th Oct, 2023
+ * @createdBy: Mohammad Irfan
+ * @description: This file contains page objects and methods to place order to test store application
  */
 class OrderPage extends Page {
     /**
@@ -16,7 +18,7 @@ class OrderPage extends Page {
     public get confirmationText () { return $('.maintext') ;}
 
     
-    /** Mthods for Order Page */
+    /** Methods for Order Page */
     public async clickProductMenu(productMenu: string){
         let xpath: string = "//*[@id='categorymenu']//a[contains(text(),'"+productMenu+"')]";
         await $(xpath).moveTo();

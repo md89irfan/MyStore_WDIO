@@ -3,6 +3,12 @@ import { Given, When, Then, DataTable } from '@wdio/cucumber-framework';
 import LoginPage from '../pageobjects/login.page';
 import OrderPage from '../pageobjects/order.page';
 
+/**
+ * @dateCreated: 16th Oct, 2023
+ * @createdBy: Mohammad Irfan
+ * @description: This file contains step definitions for login and placing order to test store application
+ */
+
 const pages = {
     login: LoginPage
 }
