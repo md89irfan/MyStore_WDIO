@@ -1,4 +1,4 @@
-# WDIO_BDD_TS
+# WebdrvierIO_Cucucmber_Typescript
 # Description: 
 This project is created to do automated test of Test Store application using WebDriverIO Cucumber Typescript framework
 

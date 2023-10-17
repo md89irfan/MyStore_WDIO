@@ -18,7 +18,7 @@ When(/^I enter "([^"]*)", "([^"]*)" and "([^"]*)" details$/, async (fname: strin
 });
 
 When(/^I enter "([^"]*)", "([^"]*)", "([^"]*)", "([^"]*)", "([^"]*)", "([^"]*)"$/, async (company: string,address1: string,city: string,state: string,postcode: string,country: string) => {
-	//console.log(company,address1,city,state,postcode,country);
+	
 	await RegisterPage.enterAddressDetails(company,address1,city,state,postcode,country);
 });
 

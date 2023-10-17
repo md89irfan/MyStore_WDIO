@@ -1,4 +1,4 @@
-Feature: Register and login to My Store
+Feature: Login to Test Store application and place an Order
 
 @LoginAndPlaceOrder
 Scenario: Login to Test Store and place order for a product

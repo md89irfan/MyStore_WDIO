@@ -15,6 +15,8 @@ class OrderPage extends Page {
     public get confirmOrderButton () { return $('#checkout_btn'); }
     public get confirmationText () { return $('.maintext') ;}
 
+    
+    /** Mthods for Order Page */
     public async clickProductMenu(productMenu: string){
         let xpath: string = "//*[@id='categorymenu']//a[contains(text(),'"+productMenu+"')]";
         await $(xpath).moveTo();

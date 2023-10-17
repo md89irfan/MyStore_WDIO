@@ -1,4 +1,4 @@
-Feature: Register and login to My Store
+Feature: Register a new user to Test Store application
 
   @RegisterUser
   Scenario Outline: As a user, I can register myself into Test Store web site   
